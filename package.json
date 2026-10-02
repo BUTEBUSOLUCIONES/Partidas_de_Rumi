@@ -1,0 +1,19 @@
+{
+  "name": "partidas-de-rumi",
+  "version": "1.0.0",
+  "private": true,
+  "workspaces": [
+    "packages/*",
+    "apps/*"
+  ],
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "butebusoluciones",
+  "license": "ISC",
+  "description": "Aplicación de apuestas para Rumi",
+  "devDependencies": {
+    "typescript": "^7.0.2"
+  }
+}
