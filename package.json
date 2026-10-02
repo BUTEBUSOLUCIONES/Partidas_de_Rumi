@@ -6,14 +6,16 @@
     "packages/*",
     "apps/*"
   ],
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
+     "scripts": {
+     "test": "vitest",
+     "build": "echo \"Build all\" // Lo configuraremos después"
+   },
   "keywords": [],
   "author": "butebusoluciones",
   "license": "ISC",
   "description": "Aplicación de apuestas para Rumi",
   "devDependencies": {
-    "typescript": "^7.0.2"
+    "typescript": "^7.0.2",
+    "vitest": "^5.0.3"
   }
 }
